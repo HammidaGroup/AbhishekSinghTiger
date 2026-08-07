@@ -1,0 +1,32 @@
+.heroDiv{
+    background:linear-gradient(
+      rgba(194, 127, 10, 0.229),
+      rgba(9, 9, 9, 0.605)
+    ), url(../assets/prodcast.jpg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* position: absolute; */
+    /* top:100px; */
+    position: relative;
+
+
+}
+.heroDiv h3{
+ position: absolute;
+    /* top: 0; */
+    color: #d8880e;
+    font-weight: bold;   
+}
