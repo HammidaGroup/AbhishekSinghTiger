@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
 
           <div className="footerSocial">
-            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="https://www.instagram.com/abhisheksinghtiger0001?igsh=MW4wZGN0cHRmdmJtNQ==" aria-label="Instagram">Instagram</a>
             <a href="#" aria-label="Facebook">Facebook</a>
             <a href="#" aria-label="YouTube">YouTube</a>
           </div>
@@ -102,7 +102,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Hammida Tech
+            HammidaTech
           </a>
         </p>
 
