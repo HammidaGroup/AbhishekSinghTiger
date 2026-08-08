@@ -3,7 +3,7 @@
       rgba(194, 127, 10, 0.229),
       rgba(9, 9, 9, 0.605)
     ), url(../assets/prodcast.jpg);
-    background-position: center;
+    background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 

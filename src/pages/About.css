@@ -24,12 +24,14 @@
 }
 
 .experience-card{
+    /* height:100px; */
+    margin: 0;
     position:absolute;
     bottom:25px;
     left:25px;
     background:#ff6b00;
     color:#fff;
-    padding:20px;
+    padding:10px;
     border-radius:20px;
     text-align:center;
     box-shadow:0 10px 30px rgba(255,107,0,.4);
@@ -37,6 +39,7 @@
 
 .experience-card h2{
     font-size:40px;
+    margin: 0;
 }
 
 .about-content{
