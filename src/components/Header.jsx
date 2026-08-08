@@ -31,7 +31,7 @@ const Header = () => {
 </Link>
 
         {/* Desktop + Mobile Navigation */}
-        <nav className={`nav ${menuOpen ? "nav-open" : ""}`}>
+        <nav className={`nav ${menuOpen ? "nav-open" : "nav-closed"}`}>
 
           <Link
             to="/"
