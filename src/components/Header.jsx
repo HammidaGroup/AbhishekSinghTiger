@@ -64,7 +64,14 @@ const Header = () => {
           >
             Gallery
           </Link>
-
+          <Link
+            to="/podcast"
+            className="nav-link"
+            onClick={closeMenu}
+          >
+            Podcast
+          </Link>
+      
           <Link
             to="/contact"
             className="nav-link"
@@ -81,6 +88,7 @@ const Header = () => {
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
+          <span></span>
           <span></span>
           <span></span>
           <span></span>

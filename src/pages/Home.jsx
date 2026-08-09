@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 
 import "./Home.css";
 import Contact from "./Contact";
+import Podcast from "./Prodcast";
 
 const Home = () => {
   const location = useLocation();
@@ -18,6 +19,7 @@ const Home = () => {
   const aboutRef = useRef(null);
   const missionRef = useRef(null);
   const galleryRef = useRef(null);
+  const podcastRef = useRef(null)
   const contactRef = useRef(null);
 
   useEffect(() => {
@@ -35,6 +37,7 @@ const Home = () => {
       "/about": aboutRef,
       "/mission": missionRef,
       "/gallery": galleryRef,
+      "/podcast":podcastRef,
       "/contact": contactRef,
     };
 
@@ -70,6 +73,10 @@ const Home = () => {
 
         <section ref={galleryRef} id="gallery">
           <Gallery />
+        </section>
+        <section ref={podcastRef}>
+
+        <Podcast/>
         </section>
 
         <section ref={contactRef} id="contact">
